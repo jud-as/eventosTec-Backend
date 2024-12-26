@@ -21,7 +21,7 @@ public class Coupon {
 
     @Id
     @GeneratedValue
-    private UUID uuid;
+    private UUID id;
     private Integer discount;
     private Date valid;
 
